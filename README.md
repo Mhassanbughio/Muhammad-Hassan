@@ -1,28 +1,39 @@
-This is a Java Project made through JavaFx packages
-It is an Auction System where only the owner knows the password.
-In this project, the password is 'password'
-Here,the database is setup on the localhost - mysql,where a table named auction is created.
-The columns of the table being the item-primarykey,present price and past price and these values being updated on the go.
+Muhammad Hassan 
+Full-Stack Developer || Freelancer ||Crypto traders 🤝 || Blockchain Developer|| Beta Microsoft Learn Student Ambassadors || DSC Core LEAD 2021 🏆 || Major League Hacking|| Amazon WEB Services || Open source enthusaist || HBR ascend member || Developer Advocate| | MUETIAN ||Mentor/Coach at Open Data Pakistan 🤝 ||Content writer and blogger at dev.to||MLH LOCAL HOST AT MUET SZAB
+⚡️ GitHub GitHub stars All Contributors Rank in pakistan
 
-To use this project, you will necessarily need the eclipse IDE.
-You will need to create a build path to the user libraries for the sql connector.
-You will need to create a path to the user defined library - to the lib file of javafx jdk and load all the files.
-The following are youtube links to set up the editor:
-1}https://www.youtube.com/watch?v=oVn6_2KuYbM
-2}https://www.youtube.com/watch?v=KRhv4iPgzHE
+I don’t know what keeps me going. Sometimes I wonder… I think it’s just pure perseverance and wanting to succeed and having that burning desire to always have success!
+Hi 👋, I'am hassan
+I AM CROSS SIDE FULLSTACK FLUTTER DEVELOPER . OPEN SOURCE ENTHUSAIST .BLOCKCHAIN EVENGLIST . MEMBER OF HBR ASCEND SELECT .GOOGLE DSC CORE LEAD 2021 . PASSIONAT TOWARDS BUILDING AND DELIVERING BEST SOLUTIONS . TECH ENTHUSIAST . WRITTER AND BLOGGER
+muhammadhassan.
 
-How it Executes?
-The owner logs in through his access-credentials and adds the initial bidding amount for each of the different item types.
-Then the users can start bidding. If the user cannot afford more,he quits
-And the final bidding amount is stored in the database.The user who manages to make the purchase can navigate to home and later pay by scanning the QR Code.
-The Customer is required to walk into the store with the paid acknowledgement to collect the product.
+🔭 I’m currently working on FINITEYFI
 
-I had fun learning JavaFX. Hope you all enjoy coding!
-To understand this code,start debugging from the Main function.
-Have a look at the screen shots of the application as well. 
+🌱 I’m currently learning BLOCKCHAIN DAPP DECENTRALIZATION
 
-![](https://raw.githubusercontent.com/Prasanna-icefire/AuctionSystem/master/AuctionSystem/MainPage.png)
-![](https://raw.githubusercontent.com/Prasanna-icefire/AuctionSystem/master/AuctionSystem/AdminLoginPage.png)
-![](https://raw.githubusercontent.com/Prasanna-icefire/AuctionSystem/master/AuctionSystem/finalPaymentt.png)
-![](https://raw.githubusercontent.com/Prasanna-icefire/AuctionSystem/master/AuctionSystem/AdminAddBid.png)
-![](https://raw.githubusercontent.com/Prasanna-icefire/AuctionSystem/master/AuctionSystem/BiddingPage.png)
+👯 I’m looking to collaborate on MARSEC 1.0 AND VTRADERS 1.2
+
+🤝 I’m looking for help with BLOCKCHAIN DEVELOPER
+
+👨‍💻 All of my projects are available at https://github.com/Mhassanbughio?tab=projects
+
+📝 I regulary write articles on ADILMARSEC.COM
+
+💬 Ask me about MERN BLOCKCHAIN OPEN SOURCE TEAM MANAGMENT CONTENT WRITTING COMMUNITY WORKING
+
+📫 How to reach me MARSECDEVELOPER@GMAIL.COM
+
+⚡ Fun fact I AM VERY PASSIONET AND TO THE POINT GUY I LOVE TO SOLVE PROBLEM AND LEARN FROM THE CHALLENGES . I DONT BELIVE IN SHORTCUTS AND FRAUDS .
+
+Blogs posts
+Connect with me:
+Email MuhammadHassan.Bughio@ambassadors.com // || Website https://muhammadhassan.netlify.app/  ||Linkedin https://www.linkedin.com/in/muhammad-hassan-416650189/ || Devepost https://devpost.com/muhammadhassansw18?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav || Medium https://muhammadhassan-sw18.medium.com/
+Languages and Tools:
+bootstrap cypress d3js docker electron express firebase git html5 java javascript linux mongodb mysql nextjs nginx nodejs oracle postgresql react reactnative redux spring webpack xamarin
+
+muhammadhassan
+
+ muhammadhassan
+
+If you love my work andwant to support me then sponser me .
+https://github.com/muhammadhassan/muetfolio/blob/master/.github/FUNDING.
