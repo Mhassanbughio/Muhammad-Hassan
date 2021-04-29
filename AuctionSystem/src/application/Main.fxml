@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootpane" prefHeight="273.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView fx:id="rootpane" fitHeight="273.0" fitWidth="669.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ice-fire.jpg" />
+         </image>
+      </ImageView>
+    <Button layoutX="85.0" layoutY="89.0" minWidth="61.0" mnemonicParsing="false" onAction="#adminlogin" opacity="0.89" prefHeight="31.0" prefWidth="104.0" text="Admin-login" />
+      <Button layoutX="85.0" layoutY="137.0" mnemonicParsing="false" onAction="#bid" opacity="0.89" prefHeight="31.0" prefWidth="104.0" text="Bid" />
+      <Button layoutX="85.0" layoutY="188.0" mnemonicParsing="false" onAction="#sell" opacity="0.88" prefHeight="31.0" prefWidth="104.0" text="Buy!" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

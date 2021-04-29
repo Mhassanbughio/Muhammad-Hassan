@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="281.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminLoginController">
+   <children>
+      <ImageView fitHeight="283.0" fitWidth="518.0" layoutX="-10.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@black.jpg" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Label fx:id="msg" alignment="CENTER" layoutX="176.0" layoutY="243.0" prefHeight="16.0" prefWidth="67.0" textFill="#f86a6a" />
+      <Button alignment="CENTER" layoutX="80.0" layoutY="212.0" mnemonicParsing="false" onAction="#getpassword" opacity="0.73" prefHeight="26.0" prefWidth="67.0" text="Login" textAlignment="CENTER">
+         <font>
+            <Font name="Fira Code Regular" size="15.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="37.0" layoutY="169.0" prefHeight="33.0" prefWidth="154.0" promptText="Password" />
+      <ImageView fx:id="logo" fitHeight="83.0" fitWidth="83.0" layoutX="72.0" layoutY="75.0" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ice-fire.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="209.0" layoutY="68.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@antiquecar.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#d0c9c9" layoutX="261.0" layoutY="218.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="ICE-FIRE" textAlignment="CENTER" wrappingWidth="97.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

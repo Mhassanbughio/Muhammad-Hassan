@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="initialBidPane" prefHeight="632.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddBidController">
+   <children>
+      <ImageView fitHeight="638.0" fitWidth="392.0" layoutX="-9.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wingsoffire.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="118.0" layoutX="58.0" layoutY="112.0" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sculpture.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="129.0" layoutX="46.0" layoutY="283.0" opacity="0.93" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coins.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="146.0" layoutX="60.0" layoutY="426.0" opacity="0.89" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@other.png" />
+         </image>
+      </ImageView>
+      <Text fill="#80f7ff" layoutX="14.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENTER STARTING BID" wrappingWidth="330.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sculpamt" alignment="CENTER" layoutX="189.0" layoutY="126.0" prefHeight="26.0" prefWidth="106.0" promptText="inirial bid in rs" />
+      <TextField fx:id="coinamt" alignment="CENTER" layoutX="192.0" layoutY="303.0" prefHeight="26.0" prefWidth="106.0" promptText="initial bid in rs" />
+      <TextField fx:id="othamt" alignment="CENTER" layoutX="189.0" layoutY="440.0" prefHeight="15.0" prefWidth="106.0" promptText="initial bid in rs" />
+      <Button layoutX="213.0" layoutY="152.0" mnemonicParsing="false" onAction="#getInitSculp" opacity="0.84" text="save" />
+      <Button layoutX="218.0" layoutY="329.0" mnemonicParsing="false" onAction="#getInitCoin" opacity="0.73" text="save" />
+      <Button layoutX="218.0" layoutY="466.0" mnemonicParsing="false" onAction="#getInitOth" opacity="0.89" text="save" />
+      <Button layoutX="213.0" layoutY="558.0" mnemonicParsing="false" onAction="#eexit" prefHeight="26.0" prefWidth="63.0" text="Exit" />
+      <Text fx:id="cointext" fill="#090a03" layoutX="207.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="72.0" />
+      <Text fx:id="othtext" fill="#262f1f" layoutX="219.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="57.0">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text fx:id="scultext" fill="#c48493" layoutX="220.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="49.0" />
+      <Button layoutX="80.0" layoutY="558.0" mnemonicParsing="false" onAction="#goHome" opacity="0.95" text="Home" />
+      <TextField alignment="CENTER" editable="false" layoutX="57.0" layoutY="86.0" opacity="0.74" prefHeight="26.0" prefWidth="106.0" text="Sculptures" />
+      <TextField alignment="CENTER" editable="false" layoutX="45.0" layoutY="257.0" opacity="0.85" prefHeight="26.0" prefWidth="129.0" text="Coins" />
+      <TextField alignment="CENTER" editable="false" layoutX="59.0" layoutY="400.0" opacity="0.83" prefHeight="26.0" prefWidth="99.0" text="Other?" />
+   </children>
+</AnchorPane>
